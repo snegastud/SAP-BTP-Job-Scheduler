@@ -48,6 +48,10 @@ makes scheduling part of the application runtime rather than using a dedicated s
 
 >It was showed all the services. what are the services we were enabled.
 
+**Service Binding**
+
+>cf bind-service <your-app-name> my-job-scheduler
+
 
 
 
