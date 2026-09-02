@@ -98,6 +98,7 @@ we can see that those details :
 
 **Runtime log inside we can able to see that job scheduler log events**
 
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40d323f5-da70-4f01-a70d-968118097013" />
 
 
