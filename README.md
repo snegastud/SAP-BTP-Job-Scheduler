@@ -32,3 +32,16 @@ makes scheduling part of the application runtime rather than using a dedicated s
 
 >**With Job Scheduler, we can configure the schedule once, and it automatically triggers the required task at the defined time. So mainly, we use it to automate time-based or recurring tasks and make their execution more reliable.”
 
+**Job Scheduler Implementation steps:**
+
+`command to create a Job Scheduler service instance`
+
+>cf create-service jobscheduler standard my-job-scheduler
+
+**“Why do you need to create a Job Scheduler service instance?”**
+
+>“The Job Scheduler service is available as a BTP service offering, but our application needs a provisioned instance of that service to consume it. So we create a service instance with the required plan, and then we can bind that instance to our application. The instance provides the service configuration and allows our application to use the Job Scheduler functionality.”
+
+
+
+
