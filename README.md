@@ -42,6 +42,13 @@ makes scheduling part of the application runtime rather than using a dedicated s
 
 >“The Job Scheduler service is available as a BTP service offering, but our application needs a provisioned instance of that service to consume it. So we create a service instance with the required plan, and then we can bind that instance to our application. The instance provides the service configuration and allows our application to use the Job Scheduler functionality.”
 
+**Then check whether it was created:**
+
+>cf service my-job-scheduler
+
+>It was showed all the services. what are the services we were enabled.
+
+
 
 
 
