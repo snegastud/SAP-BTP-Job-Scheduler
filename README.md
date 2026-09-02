@@ -1,4 +1,3 @@
-# SAP-BTP-Job-Scheduler
 
 **What is SAP BTP Job Scheduler?**
 
@@ -50,7 +49,51 @@ makes scheduling part of the application runtime rather than using a dedicated s
 
 **Service Binding**
 
->cf bind-service <your-app-name> my-job-scheduler
+>cf bind-service <your-app-name> my-job-scheduler.
+
+>“After creating the service instance, we need to bind it to the application because creating the instance alone doesn't connect our application to the service. The service binding provides the application with the required connection information and credentials to communicate with the Job Scheduler service. So, in simple terms, the service instance provides the service, and the binding connects that service to our application.”
+
+**Job Scheduler dashboard**
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6724bf0a-bc92-404f-b8e0-492f352cee9e" />
+
+
+
+Job Scheduler dashboard inside we can able to see that http jobs . Http jobs inside we can create the job.
+
+**Create Job**
+
+step 1: Click that http jobs. its show that  create job action. once click that create job action. we need to give that job name, description,trigged url,and we need to choose that methods also.
+
+since we created those details . that UI Should like this
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05078233-5899-4bd3-8fb8-85f8503f23e1" />
+
+**Http job:onboardingrequest overview**
+
+we can see that those details :
+
+>job name - give that job name
+>job description - about job description
+>job action information - give that what url should it triggered automatically.
+>http methods (We want to choose that methods like post,get ,delete, update)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5bd21885-d52c-46b9-9916-9d11c262e328" />
+
+
+**Shedule overview**
+
+>schedule overview inside we can see that.Pattern type of schedule, and we need to set that value like when it should run that api one hour once or else 1 day or else every 5 mintues once. likewise we want to set that value. based on that applications needs. set time we want to set that time when its should trigger that api automatically.
+
+step 1:Once job is schedule that intially status it should like this schedule
+step 2:once job is trigger that api automatically that status it will become the completed/success
+step 3:once job is trigger that api automatically that status it might be failure means it show that failed.
+
+
+
+
+
+
 
 
 
