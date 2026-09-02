@@ -88,11 +88,7 @@ we can see that those details :
 
 >schedule overview inside we can see that. Pattern type of schedule, and we need to set that value like when it should run that endpoint one hour once or else 1 day or else every 5 mintues once. likewise we want to set that value.  we need to choose that start time execution. which time its should trigger that endpoint automatically that time we want to give that inside the start time execution .
 
->step 1:Once job is schedule that intially status it should like this `schedule`.
-
->step 2:once job is trigger that api automatically that status it will become the `completed/success`.
-
->step 3:once job is trigger that api automatically that status it might be failure means it show that `failed`.
+>After the scheduled execution, we can check the execution result. If the HTTP request is successfully processed, the execution is shown as successful/completed; if the request fails or receives an unsuccessful response, the execution can be shown as failed.
 
 
 
