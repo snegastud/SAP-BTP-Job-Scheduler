@@ -73,17 +73,20 @@ since we created those details . that UI Should like this
 
 we can see that those details :
 
->job name - give that job name
->job description - about job description
->job action information - give that what url should it triggered automatically.
+>job name - we need to give that job name
+
+>job description - we need to give that  about job description
+
+>job action information - we need to give that what url it should be trigger automatically.
+
 >http methods (We want to choose that methods like post,get ,delete, update)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5bd21885-d52c-46b9-9916-9d11c262e328" />
 
 
-**Shedule overview**
+**Schedule overview**
 
->schedule overview inside we can see that.Pattern type of schedule, and we need to set that value like when it should run that api one hour once or else 1 day or else every 5 mintues once. likewise we want to set that value. based on that applications needs. set time we want to set that time when its should trigger that api automatically.
+>schedule overview inside we can see that. Pattern type of schedule, and we need to set that value like when it should run that endpoint one hour once or else 1 day or else every 5 mintues once. likewise we want to set that value.  we need to choose that start time execution. which time its should trigger that endpoint automatically that time we want to give that inside the start time execution .
 
 >step 1:Once job is schedule that intially status it should like this `schedule`.
 
@@ -98,14 +101,9 @@ we can see that those details :
 
 **Runtime log inside we can able to see that job scheduler log events**
 
-step 1: Endpoint automatically trigger means that status it will be `completed/success.`
-
-step 2: Endpoint failed means . we can able to see that runtime logs inside what might be the error . show that status it will be `Failed `
-
 `Success logs'
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40d323f5-da70-4f01-a70d-968118097013" />
-
 
 `Falied logs`
 
