@@ -26,3 +26,9 @@ Application timers aren't ideal for cloud scheduling — putting everything insi
 makes scheduling part of the application runtime rather than using a dedicated scheduling service.
 
 ```
+
+**Why do we use Job Scheduler?**
+>“We use Job Scheduler when we have tasks that need to run automatically at a specific time or at regular intervals. Without Job Scheduler, we would have to trigger those tasks manually or handle the scheduling inside the application, which can be difficult to maintain and may lead to missed executions.**
+
+>**With Job Scheduler, we can configure the schedule once, and it automatically triggers the required task at the defined time. So mainly, we use it to automate time-based or recurring tasks and make their execution more reliable.”
+
