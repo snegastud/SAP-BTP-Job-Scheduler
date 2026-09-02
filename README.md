@@ -92,6 +92,7 @@ we can see that those details :
 >step 3:once job is trigger that api automatically that status it might be failure means it show that `failed`.
 
 
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/18e3ac62-814e-4d55-a84f-586c3bcda640" />
 
 
