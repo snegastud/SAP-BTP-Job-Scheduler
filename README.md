@@ -61,7 +61,7 @@ makes scheduling part of the application runtime rather than using a dedicated s
 
 Job Scheduler dashboard inside we can able to see that http jobs . Http jobs inside we can create the job.
 
-**Create Job**
+**Create Job**(Recurring pattern type)
 
 step 1: Click that http jobs. its show that  create job action. once click that create job action. we need to give that job name, description,trigged url,and we need to choose that methods also.
 
@@ -109,6 +109,10 @@ we can see that those details :
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0012fafc-5525-45ff-a692-d71884278db9" />
 
+
+**Pattern types:**
+
+>Pattern Type tells Job Scheduler how the job should be scheduled and when it should run.
 
 
 
