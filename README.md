@@ -85,9 +85,11 @@ we can see that those details :
 
 >schedule overview inside we can see that.Pattern type of schedule, and we need to set that value like when it should run that api one hour once or else 1 day or else every 5 mintues once. likewise we want to set that value. based on that applications needs. set time we want to set that time when its should trigger that api automatically.
 
-step 1:Once job is schedule that intially status it should like this schedule
-step 2:once job is trigger that api automatically that status it will become the completed/success
-step 3:once job is trigger that api automatically that status it might be failure means it show that failed.
+>step 1:Once job is schedule that intially status it should like this `schedule`.
+
+>step 2:once job is trigger that api automatically that status it will become the `completed/success`.
+
+>step 3:once job is trigger that api automatically that status it might be failure means it show that `failed`.
 
 
 
