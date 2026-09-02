@@ -105,9 +105,11 @@ we can see that those details :
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40d323f5-da70-4f01-a70d-968118097013" />
 
+
 `Falied logs`
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c8be2ab-718d-4ed3-b848-932638daf279" />
+
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0012fafc-5525-45ff-a692-d71884278db9" />
 
