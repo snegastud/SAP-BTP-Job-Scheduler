@@ -158,9 +158,15 @@ Tomorrow    → 11:30 AM
 Next day    → 11:30 AM
 Next day    → 11:30 AM
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51913f37-1c9d-4c20-b2a2-0cba4a7c5ff1" />
+
+
+
 **Cron:**
 
 >I would choose Cron when I have a more complex recurring requirement, such as specific weekdays, specific days of the month, or a combination of time-based conditions. So the main advantage of Cron is flexibility in defining recurring schedules.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e610099d-65bc-4811-a790-b9d7b87f4c8c" />
 
 
 
