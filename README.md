@@ -114,6 +114,54 @@ we can see that those details :
 
 >Pattern Type tells Job Scheduler how the job should be scheduled and when it should run.
 
+>One-time
+>Recurring - Repeat Interval
+>Recurring - Repeat At
+>Cron
+
+`Pattern examples`
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40eaee14-3650-4e82-aa4f-50f1b6b1b5bf" />
+
+
+**One-Time Schedule**
+
+>I would use a one-time schedule when a job needs to execute only once at a particular date and time.
+
+>`For example`, suppose I need to run a data-processing job once on a particular date. I don't need that job to execute again after that.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9b851f7-2297-4288-ac1a-3156a30456bd" />
+
+
+As above image it is related to one time schedule. Once the job it will be execute.it's going to the inactive status.Which means its run only once. 
+
+
+**Recurring — Repeat Interval**
+
+
+>I can use Repeat Interval when the requirement is based on a fixed frequency. For example, if I need to check overdue requests every one hour, I configure the job with a one-hour interval. The scheduler then triggers the CAP endpoint repeatedly based on that interval.
+
+`For example:`
+
+11:30 → 12:30 → 13:30 → 14:30 → ...
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22ac641e-6c7a-4815-a17e-1954eaadf210" />
+
+**Recurring — Repeat At**
+
+Repeat At is slightly different from Repeat Interval."Run the onboarding check every day at 11:30 AM."
+
+The scheduler works based on that clock time.
+
+Today       → 11:30 AM
+Tomorrow    → 11:30 AM
+Next day    → 11:30 AM
+Next day    → 11:30 AM
+
+**Cron:**
+
+>I would choose Cron when I have a more complex recurring requirement, such as specific weekdays, specific days of the month, or a combination of time-based conditions. So the main advantage of Cron is flexibility in defining recurring schedules.
+
 
 
 
